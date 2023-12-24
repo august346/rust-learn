@@ -104,7 +104,7 @@ fn main() {
                 if winner == 3 {
                     println!("Draw")
                 } else {
-                    println!("Winner - {}", winner)
+                    println!("Winner - {}", ws(winner))
                 }
                 false
             },
